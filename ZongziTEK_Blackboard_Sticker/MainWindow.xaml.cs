@@ -242,9 +242,6 @@ namespace ZongziTEK_Blackboard_Sticker
                 inkCanvas.Strokes = new StrokeCollection(fileStream);
                 fileStream.Close();
             }
-
-            if (Settings.Look.IsLightTheme) SetTheme("Light");
-            else SetTheme("Dark");
         }
         private void inkCanvas_MouseWheel(object sender, System.Windows.Input.MouseWheelEventArgs e)
         {
